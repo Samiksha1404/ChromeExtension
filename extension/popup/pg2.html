@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pg2.css">
+    <title>Log In</title>
+</head >
+<body class="blackbg">
+<div class= "container">
+    <p class="whiteText">You have successfully logged in.</p>
+    <p class="whiteText">All your data is being tracked.</p>
+    <form>
+        <div class='form-contro '>
+            <label class='label'>Password</label>
+            <input 
+            type='password' 
+            required='required' 
+            id="password"
+            name="password"
+            value=""
+            pattern='[A-Za-z0-9_]{6,100}'
+            placeholder='Enter Password'
+            /> 
+        </div>
+        <input type='submit' id="submitButton" class='butn butn-block' value='Logout'/>
+    </form>
+</div>
+<script src="pg2.js"></script>
+</body>
+</html>
